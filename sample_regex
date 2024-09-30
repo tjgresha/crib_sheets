@@ -1,0 +1,8 @@
+apache
+match_pat = r'(\d+\.\d+\.\d+\.\d+).*"GET (.+?) HTTP'
+
+email_addr
+match_pat= r'^[a-z][\w\-\.]+@[a-z]+\.[a-z]{1,3}$'
+
+html_color_codes
+match_pat = r'(\#[a-f0-9]{3,6})[\;\,\)]{1}')

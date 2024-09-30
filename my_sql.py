@@ -6,4 +6,11 @@ mydb = mysql.connector.connect(
   password="mypassword"
 )
 
-print(mydb)
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM customers")
+
+myresult = mycursor.fetchall()
+
+for x in myresult:
+  print(x)
